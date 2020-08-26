@@ -8,15 +8,16 @@ a = [1,2,3,4,5,6,7,4,5,23,42,423,523,4,324,234,24,234,23,423,42,34,234,23]
 
 
 i=0
-while i < len(a):
+while i < len(a)-1:
     n = 0
-    while n < len(a) -1:
+    while n < len(a) -1-i:
         if a[n] > a[n +1]:
             a[n],a[n+1] = a[n+1],a[n]
         n +=1
     i+=1
 
 print(a)
+
 
 
 
