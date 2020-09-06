@@ -43,33 +43,37 @@ def is_available(num):
         return False
     return True
 
+
 def del_user():
     # print（利除名片 ）
     num = input('请输入要删除的序号:')  # 接收用户要删除的序号
-    if not is_available(num) :
+    if not is_available(num):
         print('输入序号有误，请重新输入')
         return
     # 如果是数字，同时也在区间范围内，提示用户并删除
     num = int(num)
-    answer = input('你确定要删除么？yes or no' )
+    answer = input('你确定要删除么？yes or no')
     if answer.lower() == 'yes':
         user_list.pop(num)
         # user_ list. remove（user_ list【num 】）
         # del user_ list 【 num 】
+
+
 def modify_info():
     # print（'修改名片'）
     num = input('请输入要修改的序号:')
     if not is_available(num):
-        print( '输入序号有误，请重新输入')
+        print('输入序号有误，请重新输入')
         return
     user = user_list[int(num)]  # 根据用户输入的下标获取到數据
     print('你要修改的信息是: \nname:{name}， tel:{te1}， QQ:{qq}'.format(**user))
-    new_name = input( '请输入新的姓名:')
+    new_name = input('请输入新的姓名:')
     new_tel = input('请输入新的手机号:')
     new_qq = input('请输入新QQ:')
-    user[ 'name'] = new_name
+    user['name'] = new_name
     user['tel'] = new_tel
-    user['qq']=new_qq
+    user['qq'] = new_qq
+
 
 def query_info():
     # print（'查询名片' ）
@@ -81,19 +85,20 @@ def query_info():
     else:
         print('没有您要找的信息....')
 
+
 def show_all():
     # print( '並ホ所有石片
     print('序号姓名   手机号    QQ')
     for i, user in enumerate(user_list):
         print(i, user[' name'].center(15), user['tel'].center(10), user['qq'].center(10))
 
-def quit_system():
 
+def quit_system():
     answer = input('楽，祢硝定要退出幺?~~~~(ゝ_ < )~wm~(yes or no)')
     return answer.lower() == 'yes'
 
-def start():
 
+def start():
     while True:
         print("""
         名片管理系統V1.0
@@ -104,21 +109,24 @@ def start():
 5:星示所有名片
 6:退出系統
         """)
-        operator = input( '清輸入要迸行的操作(数字)')
+        operator = input('清輸入要迸行的操作(数字)')
 
-        if operator =='1':
+        if operator == '1':
             add_info()
-        elif operator ==  '2' :
-            del_user( )
+        elif operator == '2':
+            del_user()
         elif operator == '3':
             modify_info()
-        elif operator == '4' :
+        elif operator == '4':
             query_info()
-        elif operator=='5':
+        elif operator == '5':
             show_all()
-        elif operator =='6':
-            if quit_system() :
+        elif operator == '6':
+            if quit_system():
                 break
         else:
             print('输入有误，请重新输入......')
-start()
+
+
+if __name__ == '__main__':
+    start()
