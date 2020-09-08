@@ -23,8 +23,11 @@ class Person(object):
     def __init__(self, name , age):
         self.name = name
         self.age = age
+        self.dog = None
+
     def work_with_dog(self):
-        self.dog.work()
+        if self.dog is not None and isinstance(self.dog,Dog):
+            self.dog.work()
 
 p = Person('张三', 18)
 
