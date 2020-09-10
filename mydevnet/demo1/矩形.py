@@ -27,6 +27,6 @@ R1= Rectangle((3,7), (4, 5))
 
 print((P1.x,P1.y))
 if R1.top[0]<= P1.x <= R1.bottom[0] and R1.bottom[1]<= P1.y <= R1.top[1]:
-    print(f"输入的矩形面积为：{R1.area()}, 点位置在矩形内部")
+    print(f"输入的矩形面积为：{R1.area()}, 点位置在矩部")
 else:
     print(f"输入的矩形面积为：{R1.area()}, 点位置不在矩形内部")

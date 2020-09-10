@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a56797cb-71f3-4a48-8bc4-e56688754d8e" name="Default Changelist" comment="test122">
-      <change afterPath="$PROJECT_DIR$/mydevnet/demo1/矩形.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydevnet/demo1/打开文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/demo1/打开文件.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
       <recent name="$PROJECT_DIR$/myfirstvenv/mydemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.矩形">
+  <component name="RunManager" selected="Python.代码设计">
     <configuration name="函数-斐波那契数列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,6 +99,132 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/模块导入.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="代码设计" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/代码设计.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="名片管理系统" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/名片管理系统.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="类的基本写法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/类的基本写法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="计算程序运行时长" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/计算程序运行时长.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/函数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/函数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,111 +401,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="名片管理系统" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/名片管理系统.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="类的基本写法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/类的基本写法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="计算程序运行时长" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/计算程序运行时长.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/函数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="函数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/函数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -426,8 +445,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.矩形" />
-        <item itemvalue="Python.多态的使用" />
+        <item itemvalue="Python.代码设计" />
         <item itemvalue="Python.模块导入" />
         <item itemvalue="Python.函数-斐波那契数列" />
         <item itemvalue="Python.name list" />
@@ -527,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599571581037</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test122">
+      <created>1599575988074</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599575988074</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -599,7 +624,7 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="662" y="355" key="Github.UntrackedFilesDialog/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1597669038080" />
-    <state width="1771" height="313" key="GridCell.Tab.0.bottom" timestamp="1599575565950">
+    <state width="1771" height="313" key="GridCell.Tab.0.bottom" timestamp="1599579009764">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
@@ -620,6 +645,7 @@
     <state width="861" height="269" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1596273767282" />
     <state width="839" height="91" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1597419893553" />
     <state width="951" height="90" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1599048013101" />
+    <state width="1771" height="313" key="GridCell.Tab.0.bottom/0.23.1792.1027@0.23.1792.1027" timestamp="1599579009764" />
     <state width="839" height="91" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1597419607248" />
     <state width="1771" height="91" key="GridCell.Tab.0.bottom/0.23.1792.1030@0.23.1792.1030" timestamp="1597481109879" />
     <state width="839" height="91" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1597469493881" />
@@ -631,7 +657,7 @@
     <state width="861" height="269" key="GridCell.Tab.0.bottom/1792.23.1366.1001/0.23.1792.1026@0.23.1792.1026" timestamp="1596269962732" />
     <state width="861" height="264" key="GridCell.Tab.0.bottom/1792.23.1366.941/0.23.1792.1097@0.23.1792.1097" timestamp="1596268324003" />
     <state width="861" height="264" key="GridCell.Tab.0.bottom/1792.56.1366.1001/0.23.1792.1017@0.23.1792.1017" timestamp="1596260427404" />
-    <state width="1771" height="313" key="GridCell.Tab.0.center" timestamp="1599575565949">
+    <state width="1771" height="313" key="GridCell.Tab.0.center" timestamp="1599579009764">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
@@ -652,6 +678,7 @@
     <state width="861" height="269" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1596273767281" />
     <state width="839" height="91" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1597419893552" />
     <state width="951" height="90" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1599048013101" />
+    <state width="1771" height="313" key="GridCell.Tab.0.center/0.23.1792.1027@0.23.1792.1027" timestamp="1599579009764" />
     <state width="839" height="91" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1597419607247" />
     <state width="1771" height="91" key="GridCell.Tab.0.center/0.23.1792.1030@0.23.1792.1030" timestamp="1597481109878" />
     <state width="839" height="91" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1597469493880" />
@@ -663,7 +690,7 @@
     <state width="861" height="269" key="GridCell.Tab.0.center/1792.23.1366.1001/0.23.1792.1026@0.23.1792.1026" timestamp="1596269962731" />
     <state width="861" height="264" key="GridCell.Tab.0.center/1792.23.1366.941/0.23.1792.1097@0.23.1792.1097" timestamp="1596268324002" />
     <state width="861" height="264" key="GridCell.Tab.0.center/1792.56.1366.1001/0.23.1792.1017@0.23.1792.1017" timestamp="1596260427403" />
-    <state width="1771" height="313" key="GridCell.Tab.0.left" timestamp="1599575565949">
+    <state width="1771" height="313" key="GridCell.Tab.0.left" timestamp="1599579009763">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536992" />
@@ -684,6 +711,7 @@
     <state width="861" height="269" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1596273767281" />
     <state width="839" height="91" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1597419893552" />
     <state width="951" height="90" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1599048013101" />
+    <state width="1771" height="313" key="GridCell.Tab.0.left/0.23.1792.1027@0.23.1792.1027" timestamp="1599579009763" />
     <state width="839" height="91" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1597419607247" />
     <state width="1771" height="91" key="GridCell.Tab.0.left/0.23.1792.1030@0.23.1792.1030" timestamp="1597481109878" />
     <state width="839" height="91" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1597469493879" />
@@ -695,7 +723,7 @@
     <state width="861" height="269" key="GridCell.Tab.0.left/1792.23.1366.1001/0.23.1792.1026@0.23.1792.1026" timestamp="1596269962730" />
     <state width="861" height="264" key="GridCell.Tab.0.left/1792.23.1366.941/0.23.1792.1097@0.23.1792.1097" timestamp="1596268324001" />
     <state width="861" height="264" key="GridCell.Tab.0.left/1792.56.1366.1001/0.23.1792.1017@0.23.1792.1017" timestamp="1596260427402" />
-    <state width="1771" height="313" key="GridCell.Tab.0.right" timestamp="1599575565950">
+    <state width="1771" height="313" key="GridCell.Tab.0.right" timestamp="1599579009764">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
@@ -716,6 +744,7 @@
     <state width="861" height="269" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1596273767281" />
     <state width="839" height="91" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1597419893553" />
     <state width="951" height="90" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1599048013101" />
+    <state width="1771" height="313" key="GridCell.Tab.0.right/0.23.1792.1027@0.23.1792.1027" timestamp="1599579009764" />
     <state width="839" height="91" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1597419607248" />
     <state width="1771" height="91" key="GridCell.Tab.0.right/0.23.1792.1030@0.23.1792.1030" timestamp="1597481109879" />
     <state width="839" height="91" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1597469493880" />
@@ -793,10 +822,10 @@
     <state x="516" y="328" key="SettingsEditor/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1597670129776" />
     <state x="70" y="36" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1596199985045" />
     <state x="70" y="36" key="SettingsEditor/0.23.1792.1030@0.23.1792.1030" timestamp="1597477207951" />
-    <state x="496" y="277" key="Vcs.Push.Dialog.v2" timestamp="1599571586439">
+    <state x="496" y="277" key="Vcs.Push.Dialog.v2" timestamp="1599575993073">
       <screen x="0" y="23" width="1792" height="1027" />
     </state>
-    <state x="496" y="277" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599571586439" />
+    <state x="496" y="277" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599575993073" />
     <state x="496" y="277" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1599488904689" />
     <state x="496" y="278" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1599386886641" />
     <state x="496" y="279" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1599383378503" />
