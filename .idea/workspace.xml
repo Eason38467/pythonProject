@@ -19,10 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a56797cb-71f3-4a48-8bc4-e56688754d8e" name="Default Changelist" comment="test-rpc-on-56xx">
-      <change afterPath="$PROJECT_DIR$/mydevnet/demo1/判断权限.py" afterDir="false" />
+    <list default="true" id="a56797cb-71f3-4a48-8bc4-e56688754d8e" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/mydevnet/ansible/1-push-config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydevnet/ansible/credits.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydevnet/demo1/student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydevnet/demo1/subject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydevnet/demo1/test_grades_errorpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydevnet/demo1/test_grades_happypath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydevnet/demo1/名片管理系统v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/demo1/名片管理系统v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydevnet/nxos-code/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/nxos-code/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydevnet/nxos-code/yang/01-yang/get_capabilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/nxos-code/yang/01-yang/get_capabilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydevnet/nxos-code/yang/01-yang/get_serial.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/nxos-code/yang/01-yang/get_serial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydevnet/nxos-code/yang/device_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/nxos-code/yang/device_info.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +67,17 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mydevnet" />
-      <recent name="$PROJECT_DIR$/mydevnet/demo1" />
-      <recent name="$PROJECT_DIR$/myfirstvenv/mydemo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mydevnet/demo1" />
+      <recent name="$PROJECT_DIR$/mydevnet" />
+      <recent name="$PROJECT_DIR$/myfirstvenv/mydemo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.判断权限">
-    <configuration name="练习-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_grades_happypath">
+    <configuration name="冒泡排序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -80,7 +89,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/练习-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/冒泡排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="判断权限" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="素数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,7 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/判断权限.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/素数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="代码设计" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="继承的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,7 +131,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/代码设计.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/继承的使用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="阶乘" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myfirstvenv/mydemo/阶乘.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="猜拳游戏" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/猜拳游戏.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,7 +350,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="冒泡排序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="get_capabilities" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -307,11 +358,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/nxos-code/yang/01-yang" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/冒泡排序.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/nxos-code/yang/01-yang/get_capabilities.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,7 +371,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="素数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="get_loopbacks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -328,11 +379,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/nxos-code/yang/01-yang" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/素数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/nxos-code/yang/01-yang/get_loopbacks.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,7 +392,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="继承的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="get_serial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -349,53 +400,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/nxos-code/yang/01-yang" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/继承的使用.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="阶乘" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myfirstvenv/mydemo/阶乘.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="猜拳游戏" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/猜拳游戏.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/nxos-code/yang/01-yang/get_serial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -425,7 +434,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test-56-rpc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="student" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -433,11 +442,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/test-56-rpc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/student.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -446,7 +455,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test-netmiko" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_grades_happypath" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -454,11 +463,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/test-netmiko.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/test_grades_happypath.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -469,11 +478,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.判断权限" />
-        <item itemvalue="Python.test-56-rpc" />
-        <item itemvalue="Python.练习-1" />
-        <item itemvalue="Python.test-netmiko" />
-        <item itemvalue="Python.代码设计" />
+        <item itemvalue="Python.test_grades_happypath" />
+        <item itemvalue="Python.student" />
+        <item itemvalue="Python.get_serial" />
+        <item itemvalue="Python.get_loopbacks" />
+        <item itemvalue="Python.get_capabilities" />
       </list>
     </recent_temporary>
   </component>
@@ -605,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600184927754</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="test">
+      <created>1600265949410</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1600265949410</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -655,7 +671,8 @@
     <MESSAGE value="test12" />
     <MESSAGE value="test122" />
     <MESSAGE value="test-rpc-on-56xx" />
-    <option name="LAST_COMMIT_MESSAGE" value="test-rpc-on-56xx" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="200" key="#Intentions" timestamp="1597235828056">
@@ -666,6 +683,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599311524131" />
+    <state x="599" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600513425554">
+      <screen x="0" y="23" width="1792" height="1034" />
+    </state>
+    <state x="599" y="345" key="#com.intellij.fileTypes.FileTypeChooser/-322.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1600513425554" />
     <state x="1109" y="392" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596199877150">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
@@ -678,16 +699,16 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="662" y="355" key="Github.UntrackedFilesDialog/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1597669038080" />
-    <state width="1771" height="312" key="GridCell.Tab.0.bottom" timestamp="1600263530002">
-      <screen x="0" y="23" width="1792" height="1036" />
+    <state width="1771" height="313" key="GridCell.Tab.0.bottom" timestamp="1600590724149">
+      <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
     <state width="1792" height="90" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1024@0.23.1792.1024" timestamp="1598920896103" />
     <state width="1792" height="94" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1026@0.23.1792.1026" timestamp="1598444568440" />
-    <state width="1771" height="312" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1600050243883" />
+    <state width="1771" height="312" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1600342914086" />
     <state width="1771" height="312" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1600180053541" />
-    <state width="1771" height="312" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1600184606744" />
-    <state width="1771" height="312" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1600184875731" />
+    <state width="1771" height="312" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1600359122520" />
+    <state width="1771" height="313" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1600590724149" />
     <state width="1771" height="314" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1033@0.23.1792.1033" timestamp="1599752912569" />
     <state width="1771" height="372" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1599401571769" />
     <state width="1771" height="312" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1600263530002" />
@@ -711,16 +732,16 @@
     <state width="861" height="269" key="GridCell.Tab.0.bottom/1792.23.1366.1001/0.23.1792.1026@0.23.1792.1026" timestamp="1596269962732" />
     <state width="861" height="264" key="GridCell.Tab.0.bottom/1792.23.1366.941/0.23.1792.1097@0.23.1792.1097" timestamp="1596268324003" />
     <state width="861" height="264" key="GridCell.Tab.0.bottom/1792.56.1366.1001/0.23.1792.1017@0.23.1792.1017" timestamp="1596260427404" />
-    <state width="1771" height="312" key="GridCell.Tab.0.center" timestamp="1600263530001">
-      <screen x="0" y="23" width="1792" height="1036" />
+    <state width="1771" height="313" key="GridCell.Tab.0.center" timestamp="1600590724148">
+      <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
     <state width="1792" height="90" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1024@0.23.1792.1024" timestamp="1598920896103" />
     <state width="1792" height="94" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1026@0.23.1792.1026" timestamp="1598444568439" />
-    <state width="1771" height="312" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1600050243882" />
+    <state width="1771" height="312" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1600342914085" />
     <state width="1771" height="312" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1600180053540" />
-    <state width="1771" height="312" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1600184606743" />
-    <state width="1771" height="312" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1600184875731" />
+    <state width="1771" height="312" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1600359122518" />
+    <state width="1771" height="313" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1600590724148" />
     <state width="1771" height="314" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1033@0.23.1792.1033" timestamp="1599752912569" />
     <state width="1771" height="372" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1599401571769" />
     <state width="1771" height="312" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1600263530001" />
@@ -744,16 +765,16 @@
     <state width="861" height="269" key="GridCell.Tab.0.center/1792.23.1366.1001/0.23.1792.1026@0.23.1792.1026" timestamp="1596269962731" />
     <state width="861" height="264" key="GridCell.Tab.0.center/1792.23.1366.941/0.23.1792.1097@0.23.1792.1097" timestamp="1596268324002" />
     <state width="861" height="264" key="GridCell.Tab.0.center/1792.56.1366.1001/0.23.1792.1017@0.23.1792.1017" timestamp="1596260427403" />
-    <state width="1771" height="312" key="GridCell.Tab.0.left" timestamp="1600263530000">
-      <screen x="0" y="23" width="1792" height="1036" />
+    <state width="1771" height="313" key="GridCell.Tab.0.left" timestamp="1600590724148">
+      <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536992" />
     <state width="1792" height="90" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1024@0.23.1792.1024" timestamp="1598920896102" />
     <state width="1792" height="94" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1026@0.23.1792.1026" timestamp="1598444568438" />
-    <state width="1771" height="312" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1600050243882" />
+    <state width="1771" height="312" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1600342914085" />
     <state width="1771" height="312" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1600180053540" />
-    <state width="1771" height="312" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1600184606743" />
-    <state width="1771" height="312" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1600184875730" />
+    <state width="1771" height="312" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1600359122517" />
+    <state width="1771" height="313" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1600590724148" />
     <state width="1771" height="314" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1033@0.23.1792.1033" timestamp="1599752912568" />
     <state width="1771" height="372" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1599401571769" />
     <state width="1771" height="312" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1600263530000" />
@@ -777,16 +798,16 @@
     <state width="861" height="269" key="GridCell.Tab.0.left/1792.23.1366.1001/0.23.1792.1026@0.23.1792.1026" timestamp="1596269962730" />
     <state width="861" height="264" key="GridCell.Tab.0.left/1792.23.1366.941/0.23.1792.1097@0.23.1792.1097" timestamp="1596268324001" />
     <state width="861" height="264" key="GridCell.Tab.0.left/1792.56.1366.1001/0.23.1792.1017@0.23.1792.1017" timestamp="1596260427402" />
-    <state width="1771" height="312" key="GridCell.Tab.0.right" timestamp="1600263530001">
-      <screen x="0" y="23" width="1792" height="1036" />
+    <state width="1771" height="313" key="GridCell.Tab.0.right" timestamp="1600590724149">
+      <screen x="0" y="23" width="1792" height="1031" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
     <state width="1792" height="90" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1024@0.23.1792.1024" timestamp="1598920896103" />
     <state width="1792" height="94" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1026@0.23.1792.1026" timestamp="1598444568439" />
-    <state width="1771" height="312" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1600050243883" />
+    <state width="1771" height="312" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1600342914086" />
     <state width="1771" height="312" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1600180053541" />
-    <state width="1771" height="312" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1600184606744" />
-    <state width="1771" height="312" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1600184875731" />
+    <state width="1771" height="312" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1600359122519" />
+    <state width="1771" height="313" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1600590724149" />
     <state width="1771" height="314" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1033@0.23.1792.1033" timestamp="1599752912569" />
     <state width="1771" height="372" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1599401571769" />
     <state width="1771" height="312" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1600263530001" />
@@ -876,15 +897,15 @@
     <state x="516" y="328" key="SettingsEditor/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1597670129776" />
     <state x="70" y="36" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1596199985045" />
     <state x="70" y="36" key="SettingsEditor/0.23.1792.1030@0.23.1792.1030" timestamp="1597477207951" />
-    <state x="496" y="278" key="Vcs.Push.Dialog.v2" timestamp="1600184932010">
-      <screen x="0" y="23" width="1792" height="1031" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2" timestamp="1600265961861">
+      <screen x="0" y="23" width="1792" height="1036" />
     </state>
     <state x="496" y="277" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599575993073" />
     <state x="496" y="277" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1599488904689" />
     <state x="496" y="278" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1030@0.23.1792.1030" timestamp="1599386886641" />
     <state x="496" y="278" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1031@0.23.1792.1031" timestamp="1600184932010" />
     <state x="496" y="278" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1033@0.23.1792.1033" timestamp="1599751601690" />
-    <state x="496" y="279" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1599383378503" />
+    <state x="496" y="279" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1600265961861" />
     <state x="496" y="294" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599357522333" />
     <state x="694" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598448745243">
       <screen x="0" y="23" width="1792" height="1028" />

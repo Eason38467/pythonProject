@@ -1,0 +1,15 @@
+---
+- hosts: nxos
+  gather_facts: false
+  connection: local
+  vars_file:
+    - credits.yaml
+
+  vars:
+    creds:
+      username: "{{ username }}"
+      password: "{{ password }}"
+
+  task:
+    - name: config hostname
+
