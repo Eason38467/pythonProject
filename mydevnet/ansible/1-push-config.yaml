@@ -24,6 +24,9 @@
         feature: '{{ item.feature }}'
         provider: "{{ nxos_provider }}"
       with_items: "{{ features }}"
+    - name: enable nv overlay evpn
+      nxos_evpn_global:
+        nv_overlay_evpn: true
 
     - name: add vlan
       nxos_vlans:
@@ -37,6 +40,62 @@
           - vlan_id: 100
             name: l3-vni
             mapped_vni: 10100
+
+
+    - name: interface agg
+      nxos_lag_interfaces:
+        config:
+          - name: port-channel10
+            members:
+              - member: Ethernet1/1
+                mode: active
+              - member: Ethernet1/2
+                mode: active
+
+    - name: config interface and port-channel
+      nxos_interfaces:
+        config:
+          - name: Port-channel10
+            description: To-Spine
+            mtu: 9216
+            mode: layer3
+            enabled: true
+          - name: vlan100
+            ip_forward: true
+          - name: vlan10
+            fabric_forwarding_anycast_gateway: true
+          - name: vlan20
+            fabric_forwarding_anycast_gateway: true
+
+    - name: add vrf
+      nxos_vrf:
+        name: vlan100
+        state: present
+
+    - name: apply vrf
+      nxos_vrf:
+        name: vlan100
+        interfaces:
+          - vlan10
+          - vlan20
+          - vlan100
+
+    - name: config ip
+      nxos_l3_interfaces:
+        config:
+          - name: loopback0
+            ipv4:
+              - address: 1.1.1.1/32
+          - name: vlan10
+            ipv4:
+              - address: 10.1.1.1/24
+          - name: vlan20
+            ipv4:
+              - address: 20.1.1.1/24
+
+
+
+
 
         
 

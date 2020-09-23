@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a56797cb-71f3-4a48-8bc4-e56688754d8e" name="Default Changelist" comment="test">
+    <list default="true" id="a56797cb-71f3-4a48-8bc4-e56688754d8e" name="Default Changelist" comment="test-ansible">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mydevnet/ansible/1-push-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/ansible/1-push-config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydevnet/ansible/config-temp/vxlan-leaf" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/ansible/config-temp/vxlan-leaf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydevnet/ansible/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/ansible/hosts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -607,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600856809732</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="test-ansible">
+      <created>1600869995390</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600869995390</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -658,7 +663,8 @@
     <MESSAGE value="test122" />
     <MESSAGE value="test-rpc-on-56xx" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test-ansible" />
+    <option name="LAST_COMMIT_MESSAGE" value="test-ansible" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="200" key="#Intentions" timestamp="1597235828056">
@@ -881,16 +887,16 @@
     <state width="861" height="332" key="GridCell.Tab.1.right/0.23.1792.1022@0.23.1792.1022" timestamp="1596270651238" />
     <state width="1771" height="344" key="GridCell.Tab.1.right/0.23.1792.1026@0.23.1792.1026" timestamp="1597236468289" />
     <state width="1771" height="344" key="GridCell.Tab.1.right/0.23.1792.1028@0.23.1792.1028" timestamp="1597230296692" />
-    <state x="242" y="106" key="SettingsEditor" timestamp="1600673787420">
+    <state x="242" y="106" key="SettingsEditor" timestamp="1600870586332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="516" y="328" key="SettingsEditor/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1597670129776" />
     <state x="26" y="17" key="SettingsEditor/0.0.1024.728@0.0.1024.728" timestamp="1600664936807" />
-    <state x="242" y="106" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600673787420" />
+    <state x="242" y="106" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600870586332" />
     <state x="70" y="36" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1596199985045" />
     <state x="70" y="36" key="SettingsEditor/0.23.1792.1030@0.23.1792.1030" timestamp="1597477207951" />
-    <state x="708" y="346" key="Vcs.Push.Dialog.v2" timestamp="1600856813289">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="531" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600870607636">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="496" y="277" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599575993073" />
     <state x="496" y="277" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1599488904689" />
@@ -899,7 +905,7 @@
     <state x="496" y="278" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1033@0.23.1792.1033" timestamp="1599751601690" />
     <state x="496" y="279" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1600265961861" />
     <state x="496" y="294" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599357522333" />
-    <state x="531" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600673817963" />
+    <state x="531" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600870607636" />
     <state x="708" y="346" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1600856813289" />
     <state x="694" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598448745243">
       <screen x="0" y="23" width="1792" height="1028" />
