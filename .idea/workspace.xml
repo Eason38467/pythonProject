@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a56797cb-71f3-4a48-8bc4-e56688754d8e" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydevnet/ansible/1-push-config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydevnet/ansible/credits.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/ansible/credits.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydevnet/ansible/1-push-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/ansible/1-push-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydevnet/ansible/config-temp/vxlan-leaf" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/ansible/config-temp/vxlan-leaf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydevnet/ansible/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/ansible/hosts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +59,14 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\devent\pythonProject\mydevnet\Parse_API_Data_Formats_with_Python\initial" />
       <recent name="$PROJECT_DIR$/mydevnet/demo1" />
       <recent name="$PROJECT_DIR$/mydevnet" />
       <recent name="$PROJECT_DIR$/myfirstvenv/mydemo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Python.lab01">
@@ -599,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600673332552</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="test">
+      <created>1600856809732</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1600856809732</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -881,8 +889,8 @@
     <state x="242" y="106" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600673787420" />
     <state x="70" y="36" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1596199985045" />
     <state x="70" y="36" key="SettingsEditor/0.23.1792.1030@0.23.1792.1030" timestamp="1597477207951" />
-    <state x="531" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600673817963">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="708" y="346" key="Vcs.Push.Dialog.v2" timestamp="1600856813289">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="496" y="277" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1027@0.23.1792.1027" timestamp="1599575993073" />
     <state x="496" y="277" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1599488904689" />
@@ -892,15 +900,17 @@
     <state x="496" y="279" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1600265961861" />
     <state x="496" y="294" key="Vcs.Push.Dialog.v2/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599357522333" />
     <state x="531" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600673817963" />
+    <state x="708" y="346" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1600856813289" />
     <state x="694" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598448745243">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="694" y="458" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1598448745243" />
-    <state x="561" y="265" width="670" height="722" key="search.everywhere.popup" timestamp="1599287658601">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state x="801" y="309" width="958" height="922" key="search.everywhere.popup" timestamp="1600863059691">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="561" y="250" width="670" height="676" key="search.everywhere.popup/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1598542173555" />
     <state x="561" y="265" width="670" height="722" key="search.everywhere.popup/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599287658601" />
+    <state x="801" y="309" width="958" height="922" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1600863059691" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

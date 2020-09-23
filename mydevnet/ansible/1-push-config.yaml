@@ -25,6 +25,23 @@
         provider: "{{ nxos_provider }}"
       with_items: "{{ features }}"
 
+    - name: add vlan
+      nxos_vlans:
+        config:
+          - vlan_id: 10
+            name: test-vlan10-l2
+            mapped_vni: 10010
+          - vlan_id: 20
+            name: test-vlan20-l2
+            mapped_vni: 10020
+          - vlan_id: 100
+            name: l3-vni
+            mapped_vni: 10100
+
+        
+
+
+
 
 
 

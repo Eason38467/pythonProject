@@ -49,6 +49,7 @@ Spine-N9K-2 ansible_ssh_host=192.168.50.102
 [vxlanleaf]
 Leaf-N9K-1 ansible_ssh_host=192.168.50.101
 Leaf-N9K-2 ansible_ssh_host=192.168.50.103
+ROG-Leaf-N9K-1 ansible_host=192.168.50.104
 
 [nxos:children]
 vxlanspine
