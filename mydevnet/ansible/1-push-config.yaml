@@ -1,0 +1,31 @@
+---
+
+- name: fisrt config
+  hosts: vxlanleaf
+  vars:
+    nxos_provider:
+      username: "{{ user }}"
+      password: "{{ pwd }}"
+      transport: cli
+      host: "{{ inventory_hostname }}"
+
+
+
+  tasks:
+
+    - name: config hostname
+      nxos_config:
+        lines: hostname {{ inventory_hostname }}
+        provider: "{{ nxos_provider }}"
+        save_when: modified
+
+    - name: enable feature
+      nxos_feature:
+        feature: '{{ item.feature }}'
+        provider: "{{ nxos_provider }}"
+      with_items: "{{ features }}"
+
+
+
+
+

@@ -1,0 +1,18 @@
+user: admin
+pwd: cisco!123
+
+
+features:
+  - { feature: bgp }
+  - { feature: ospf }
+  - { feature: "nv overlay" }
+  - { feature: pim }
+  - { feature: nxapi }
+  - { feature: bash-shell }
+  - { feature: sftp-server }
+  - { feature: netconf }
+  - { feature: restconf }
+  - { feature: grpc }
+  - { feature: vn-segment-vlan-based }
+  - { feature: lacp }
+  - { feature: nv overlay }
