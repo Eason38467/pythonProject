@@ -1,2 +1,7 @@
-username: admin
-password: cisco!123
+---
+
+  nxos_provider:
+    username: "{{ user }}"
+    password: "{{ pwd }}"
+    connection: local
+    host: "{{ inventory_hostname }}"
