@@ -86,12 +86,37 @@
           - name: loopback0
             ipv4:
               - address: 1.1.1.1/32
+          - name: loopback1
+            ipv4:
+              - address: 100.1.1.1/24
           - name: vlan10
             ipv4:
               - address: 10.1.1.1/24
           - name: vlan20
             ipv4:
               - address: 20.1.1.1/24
+          - name: port-channel10
+            ipv4:
+              - address: 21.1.1.1/24
+
+
+    - name: config pim rp
+      nxos_pim_rp_address:
+        rp_address: 100.1.1.1
+
+    - name: enable interface pim
+      nxos_pim_interface:
+        - interface: port-channel10
+          sparse: true
+        - interface: loopback0
+          sparse: true
+        - interface: loopback1
+          sparse: true
+
+
+
+
+
 
 
 
