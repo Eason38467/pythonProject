@@ -1,0 +1,12 @@
+---
+
+- name: feature test
+  hosts: vxlanleaf
+  connection: local
+  gather_facts: no
+
+
+  tasks:
+    - name: lacp
+      nxos_feature: feature=lacp state=enabled host = "{{ inventory_hostname }}"
+      register: lacp
