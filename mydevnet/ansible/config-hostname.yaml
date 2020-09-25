@@ -1,0 +1,20 @@
+---
+
+- name: fisrt config
+  hosts: nxos
+  vars:
+    nxos_provider:
+      username: "{{ user }}"
+      password: "{{ pwd }}"
+      transport: cli
+      host: "{{ inventory_hostname }}"
+
+
+
+  tasks:
+
+    - name: config hostname
+      nxos_config:
+        lines: hostname {{ inventory_hostname }}
+        provider: "{{ nxos_provider }}"
+        save_when: modified

@@ -4,78 +4,88 @@ import requests
 
 from auth_token import get_token
 
-devices = [{'leaf-1': '192.168.50.104'}]
-
-for i in devices:
-    for k,v in i.items():
-        print(k)
-        print(v)
-
-        url = f'http://{v}/ins'
-        print(url)
-        switchuser = 'admin'
-        switchpassword = 'cisco!123'
-
-        myheaders = {'content-type': 'application/json'}
-        payload = {
-            "ins_api": {
-                "version": "1.0",
-                "type": "cli_show",
-                "chunk": "0",
-                "sid": "1",
-                "input": "show cdp neighbors",
-                "output_format": "json"
-            }}
-
-        response = requests.post(url, data=json.dumps(payload), headers=myheaders, auth=(switchuser, switchpassword)).json()
-        output = json.dumps(response, indent=4, sort_keys=True)
-        output_json = json.loads(output)
-        print(response)
-        print(output_json)
-        peername=output_json['ins_api']['outputs']['output']['body']['TABLE_cdp_neighbor_brief_info']['ROW_cdp_neighbor_brief_info']['device_id']
-        localport= output_json['ins_api']['outputs']['output']['body']['TABLE_cdp_neighbor_brief_info']['ROW_cdp_neighbor_brief_info']['intf_id']
-        peerport= output_json['ins_api']['outputs']['output']['body']['TABLE_cdp_neighbor_brief_info'][
-                  'ROW_cdp_neighbor_brief_info']['port_id']
-        print(peername,localport,peerport)
 
 
+def addportdescription():
+    devices = [{'spine-1': '192.168.50.104'},{'spine-2':'192.168.50.105'},{'leaf-1': '192.168.50.106'},{'spine-2':'192.168.50.107'},{'spine-1': '192.168.50.108'},{'spine-2':'192.168.50.109'}]
+    for i in devices:
+        for k,v in i.items():
+            print(k)
+            print(v)
 
-        session = requests.session()
+            url = f'http://{v}/ins'
+            print(url)
+            switchuser = 'admin'
+            switchpassword = 'cisco!123'
 
-        base_url = 'http://' + v + '/api/'
+            myheaders = {'content-type': 'application/json'}
+            payload = {
+                "ins_api": {
+                    "version": "1.0",
+                    "type": "cli_show",
+                    "chunk": "0",
+                    "sid": "1",
+                    "input": "show cdp neighbors",
+                    "output_format": "json"
+                }}
 
-        # create credentials structure
-        name_pwd = {'aaaUser': {'attributes': {'name': "admin", 'pwd': "cisco!123"}}}
-        json_credentials = json.dumps(name_pwd)
+            response = requests.post(url, data=json.dumps(payload), headers=myheaders, auth=(switchuser, switchpassword)).json()
+            output = json.dumps(response, indent=4, sort_keys=True)
+            output_json = json.loads(output)
+            print(response)
+            print(output)
+            neighber_list=output_json['ins_api']['outputs']['output']['body']['TABLE_cdp_neighbor_brief_info']['ROW_cdp_neighbor_brief_info']
 
-        # log in to API
-        login_url = base_url + 'aaaLogin.json'
-        session.post(login_url, data=json_credentials)
+            print(neighber_list)
 
-        # get token from login response structure
-        auth = json.loads(post_response.text)
-        #login_attributes = auth['imdata'][0]['aaaLogin']['attributes']
-        #auth_token = login_attributes['token']
+            for temp1 in neighber_list:
+                neighber_info = {"peername": temp1["device_id"], 'localport':temp1['intf_id'], 'peerport':temp1['port_id']}
 
-        #print(auth_token)
-
-
-
-        headers = {'Content-Type':'application/json', 'X-Auth-Token':auth_token}
-        data={
-            "interfaceEntity": {
-                "children": [
-                    {
-                        "l1PhysIf": {
-                            "attributes": {
-                                "descr": f"To+' '+' '+{peername}+' '+{peerport}",
-                                "id": f"{localport}"
-                            }}}]}}
-
-        changedecription = requests.post(f'http://{v}/api/mo/sys/intf.json', headers=headers,data=data)
-
-        print(changedecription)
-
-
+                print(neighber_info)
 
 
+                base_url = 'http://' + v + '/api/'
+
+                # create credentials structure
+                name_pwd = {'aaaUser': {'attributes': {'name': "admin", 'pwd': "cisco!123"}}}
+                json_credentials = json.dumps(name_pwd)
+
+                # log in to API
+                login_url = base_url + 'aaaLogin.json'
+
+                auth_cookie = {}
+                response = requests.request("POST", login_url,data=json_credentials)
+
+                if response.status_code == requests.codes.ok:
+                    data=json.loads(response.text)["imdata"][0]
+                    print(data)
+                    token=str(data['aaaLogin']['attributes']['token'])
+                    auth_cookie={"APIC-cookie":token}
+
+                print()
+                print("aaaLogin RESPONSE:")
+                print(json.dumps(json.loads(response.text), indent=2))
+                print()
+
+                headers = {'Content-Type':'application/json'}
+                data2={
+                    "interfaceEntity": {
+                        "children": [
+                            {
+                                "l1PhysIf": {
+                                    "attributes": {
+                                        "descr": "cccccccc",
+                                        "id": "eth1/4"
+                                    }}}]}}
+
+                data2["interfaceEntity"]["children"][0]["l1PhysIf"]["attributes"]["descr"]=f"To-{neighber_info['peername']}-{neighber_info['peerport']}"
+                data2["interfaceEntity"]["children"][0]["l1PhysIf"]["attributes"]["id"] = f"{neighber_info['localport']}"[:3].lower()+f"{neighber_info['localport']}"[-3:]
+                payload2=json.dumps(data2)
+                changedecription = requests.request('POST',f'http://{v}/api/mo/sys/intf.json', headers = headers, cookies=auth_cookie,data=payload2)
+
+                print(changedecription)
+
+
+
+
+addportdescription()
