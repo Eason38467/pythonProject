@@ -1,7 +1,28 @@
-interface Ethernet1/1
-  description test-1
-  no switchport
-  udld disable
-  no sh
+ data2 = {
+"topSystem": {
+"children": [
+{
+"ipv4Entity": {
+  "children": [
+{
+  "ipv4Inst": {
+    "children": [
+{
+"ipv4Dom": {
+  "attributes": {
+    "name": "default"
+},
+"children": [
+{
+  "ipv4If": {
+    "attributes": {
+      "id": "eth1/1"
+    },
+"children": [
+{
+"ipv4Addr": {
+  "attributes": {
+    "addr": "10.0.0.1/10"
+}}}]}}]}}]}}]}}]}}
 
-
+for k,v
