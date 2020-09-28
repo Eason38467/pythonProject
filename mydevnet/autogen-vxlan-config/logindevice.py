@@ -6,9 +6,9 @@ from auth_token import get_token
 
 allinfo=[]
 
-def addportdescription():
-    devices = [{'spine-1': '192.168.50.104'},{'spine-2':'192.168.50.105'},{'leaf-1': '192.168.50.106'},{'spine-2':'192.168.50.107'},{'spine-1': '192.168.50.108'},{'spine-2':'192.168.50.109'}]
-    for i in devices:
+def addportdescription(devicelist):
+
+    for i in devicelist:
         for k,v in i.items():
             print(k)
             print(v)

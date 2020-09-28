@@ -18,28 +18,6 @@ nxapi http port 80
 
 
 #创建一个空列表接收设备信息
-devicelist=[]
-
-
-def collectspinemgmt():
-    while True:
-        print('******登记switches***********')
-        name=input('请输入需要管理的设备名：')
-        mgmtip=input('请输入需要这个设备的管理地址：')
-        compile_ip = re.compile('^(1\d{2}|2[0-4]\d|25[0-5]|[1-9]\d|[1-9])\.(1\d{2}|2[0-4]\d|25[0-5]|[1-9]\d|\d)\.(1\d{2}|2[0-4]\d|25[0-5]|[1-9]\d|\d)\.(1\d{2}|2[0-4]\d|25[0-5]|[1-9]\d|\d)$')
-
-        #判断输入的IP是否合法
-        if compile_ip.match(mgmtip):
-            #每个设备名字和管理口地址用字典的形式保存
-            device1={name:mgmtip}
-            devicelist.append(device1)
-        else:
-            print('Invalid ip')
-
-
-        exitinput=input('继续？（Y/N）：')
-        if exitinput.lower() == 'n':
-            break
 
 def genip():
     host_network=[]
@@ -211,7 +189,6 @@ def addip(l3interface,mgmt_ip):
 
 
 devices= [{'spine1':"192.168.50.104"},{'spine2':"192.168.50.105"},{'leaf1':"192.168.50.106"},{'leaf2':"192.168.50.107"},{'leaf3':"192.168.50.108"},{'leaf4':"192.168.50.109"},]
-
 
 
 iplist = genip()

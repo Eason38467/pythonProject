@@ -3,7 +3,7 @@ import os
 os.makedirs(r"hosts_vars")
 os.makedirs(r"group_vars")
 
-def mkdir(path):
+def mkdir(path='./'):
     folder = os.path.exists(path)
 
     if not folder:  # 判断是否存在文件夹如果不存在则创建为文件夹
@@ -18,4 +18,3 @@ def mkdir(path):
         print("---  There is this folder!  ---")
 
 
-mkdir(path)
