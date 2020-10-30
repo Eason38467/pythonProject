@@ -23,14 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a56797cb-71f3-4a48-8bc4-e56688754d8e" name="Default Changelist" comment="test-ansible">
-      <change afterPath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/addip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/genconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydevnet/Cisco-NX-OS-device.yang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydevnet/openconfig-interfaces.yang" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydevnet/test-netconf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mydevnet/addip.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/addip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydevnet/ansible/config-hostname.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/ansible/config-hostname.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydevnet/ansible/group_vars/vxlanleaf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/ansible/group_vars/vxlanleaf.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydevnet/ansible/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/ansible/hosts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/addip.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/addip.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/collectdeviceinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/collectdeviceinfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/hosts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/logindevice.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/logindevice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/startgenansiblevarsfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/startgenansiblevarsfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/index.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,63 +68,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mydevnet/autogen-vxlan-config" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Myproject\mydevnet\autogen-vxlan-config" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\mydevnet" />
       <recent name="E:\devent\pythonProject\mydevnet\Parse_API_Data_Formats_with_Python\initial" />
       <recent name="$PROJECT_DIR$/mydevnet/demo1" />
       <recent name="$PROJECT_DIR$/mydevnet" />
       <recent name="$PROJECT_DIR$/myfirstvenv/mydemo" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Myproject\mydevnet\autogen-vxlan-config" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.startgenansiblevarsfile">
-    <configuration name="阶乘" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myfirstvenv/mydemo/阶乘.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="类的基本写法" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/demo1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/demo1/类的基本写法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test-netconf">
     <configuration name="计算程序运行时长" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,6 +210,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="addip (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/autogen-vxlan-config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/addip.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="addip" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,7 +252,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="addportdescription" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="get_capabilities" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,11 +260,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="D:/迅雷下载/nxos-code-master/yang/01-yang" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Myproject\mydevnet\addportdescription.py" />
+      <option name="SCRIPT_NAME" value="D:/迅雷下载/nxos-code-master/yang/01-yang/get_capabilities.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +273,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="get_serial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,32 +281,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="D:/迅雷下载/nxos-code-master/yang/01-yang" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/decode.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="logindevice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/autogen-vxlan-config" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/logindevice.py" />
+      <option name="SCRIPT_NAME" value="D:/迅雷下载/nxos-code-master/yang/01-yang/get_serial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -351,7 +315,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="startgenansiblevarsfile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test-netconf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,11 +323,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet/autogen-vxlan-config" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mydevnet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/autogen-vxlan-config/startgenansiblevarsfile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mydevnet/test-netconf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -374,11 +338,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.startgenansiblevarsfile" />
+        <item itemvalue="Python.test-netconf" />
+        <item itemvalue="Python.get_serial" />
+        <item itemvalue="Python.get_capabilities" />
         <item itemvalue="Python.addip" />
-        <item itemvalue="Python.decode" />
-        <item itemvalue="Python.addportdescription" />
-        <item itemvalue="Python.logindevice" />
+        <item itemvalue="Python.addip (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -665,8 +629,8 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="662" y="355" key="Github.UntrackedFilesDialog/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1597669038080" />
-    <state width="2539" height="436" key="GridCell.Tab.0.bottom" timestamp="1601129989504">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="676" key="GridCell.Tab.0.bottom" timestamp="1604068407872">
+      <screen x="0" y="0" width="2560" height="1406" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
     <state width="1792" height="90" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1024@0.23.1792.1024" timestamp="1598920896103" />
@@ -680,7 +644,8 @@
     <state width="1771" height="312" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1600263530002" />
     <state width="1771" height="340" key="GridCell.Tab.0.bottom/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599357579008" />
     <state width="1899" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601077748962" />
-    <state width="2539" height="436" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1601129989504" />
+    <state width="2539" height="266" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1601306234928" />
+    <state width="2539" height="676" key="GridCell.Tab.0.bottom/0.0.2560.1406/-3840.0.2560.1440@0.0.2560.1406" timestamp="1604068407872" />
     <state width="861" height="269" key="GridCell.Tab.0.bottom/0.23.1792.1017/1792.-57.1920.1177@0.23.1792.1017" timestamp="1596719430192" />
     <state width="1771" height="269" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1597214479648" />
     <state width="861" height="264" key="GridCell.Tab.0.bottom/0.23.1792.1020@0.23.1792.1020" timestamp="1596257013623" />
@@ -700,8 +665,8 @@
     <state width="861" height="269" key="GridCell.Tab.0.bottom/1792.23.1366.1001/0.23.1792.1026@0.23.1792.1026" timestamp="1596269962732" />
     <state width="861" height="264" key="GridCell.Tab.0.bottom/1792.23.1366.941/0.23.1792.1097@0.23.1792.1097" timestamp="1596268324003" />
     <state width="861" height="264" key="GridCell.Tab.0.bottom/1792.56.1366.1001/0.23.1792.1017@0.23.1792.1017" timestamp="1596260427404" />
-    <state width="2539" height="436" key="GridCell.Tab.0.center" timestamp="1601129989504">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="676" key="GridCell.Tab.0.center" timestamp="1604068407872">
+      <screen x="0" y="0" width="2560" height="1406" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
     <state width="1792" height="90" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1024@0.23.1792.1024" timestamp="1598920896103" />
@@ -715,7 +680,8 @@
     <state width="1771" height="312" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1600263530001" />
     <state width="1771" height="340" key="GridCell.Tab.0.center/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599357579007" />
     <state width="1899" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601077748962" />
-    <state width="2539" height="436" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1601129989504" />
+    <state width="2539" height="266" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1601306234927" />
+    <state width="2539" height="676" key="GridCell.Tab.0.center/0.0.2560.1406/-3840.0.2560.1440@0.0.2560.1406" timestamp="1604068407872" />
     <state width="861" height="269" key="GridCell.Tab.0.center/0.23.1792.1017/1792.-57.1920.1177@0.23.1792.1017" timestamp="1596719430191" />
     <state width="1771" height="269" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1597214479648" />
     <state width="861" height="264" key="GridCell.Tab.0.center/0.23.1792.1020@0.23.1792.1020" timestamp="1596257013622" />
@@ -735,8 +701,8 @@
     <state width="861" height="269" key="GridCell.Tab.0.center/1792.23.1366.1001/0.23.1792.1026@0.23.1792.1026" timestamp="1596269962731" />
     <state width="861" height="264" key="GridCell.Tab.0.center/1792.23.1366.941/0.23.1792.1097@0.23.1792.1097" timestamp="1596268324002" />
     <state width="861" height="264" key="GridCell.Tab.0.center/1792.56.1366.1001/0.23.1792.1017@0.23.1792.1017" timestamp="1596260427403" />
-    <state width="2539" height="436" key="GridCell.Tab.0.left" timestamp="1601129989504">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="676" key="GridCell.Tab.0.left" timestamp="1604068407872">
+      <screen x="0" y="0" width="2560" height="1406" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536992" />
     <state width="1792" height="90" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1024@0.23.1792.1024" timestamp="1598920896102" />
@@ -750,7 +716,8 @@
     <state width="1771" height="312" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1600263530000" />
     <state width="1771" height="340" key="GridCell.Tab.0.left/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599357579007" />
     <state width="1899" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601077748961" />
-    <state width="2539" height="436" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1601129989504" />
+    <state width="2539" height="266" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1601306234927" />
+    <state width="2539" height="676" key="GridCell.Tab.0.left/0.0.2560.1406/-3840.0.2560.1440@0.0.2560.1406" timestamp="1604068407872" />
     <state width="861" height="269" key="GridCell.Tab.0.left/0.23.1792.1017/1792.-57.1920.1177@0.23.1792.1017" timestamp="1596719430191" />
     <state width="1771" height="269" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1597214479648" />
     <state width="861" height="264" key="GridCell.Tab.0.left/0.23.1792.1020@0.23.1792.1020" timestamp="1596257013622" />
@@ -770,8 +737,8 @@
     <state width="861" height="269" key="GridCell.Tab.0.left/1792.23.1366.1001/0.23.1792.1026@0.23.1792.1026" timestamp="1596269962730" />
     <state width="861" height="264" key="GridCell.Tab.0.left/1792.23.1366.941/0.23.1792.1097@0.23.1792.1097" timestamp="1596268324001" />
     <state width="861" height="264" key="GridCell.Tab.0.left/1792.56.1366.1001/0.23.1792.1017@0.23.1792.1017" timestamp="1596260427402" />
-    <state width="2539" height="436" key="GridCell.Tab.0.right" timestamp="1601129989504">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="676" key="GridCell.Tab.0.right" timestamp="1604068407872">
+      <screen x="0" y="0" width="2560" height="1406" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
     <state width="1792" height="90" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1024@0.23.1792.1024" timestamp="1598920896103" />
@@ -785,7 +752,8 @@
     <state width="1771" height="312" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1036@0.23.1792.1036" timestamp="1600263530001" />
     <state width="1771" height="340" key="GridCell.Tab.0.right/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599357579008" />
     <state width="1899" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601077748962" />
-    <state width="2539" height="436" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1601129989504" />
+    <state width="2539" height="266" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1601306234928" />
+    <state width="2539" height="676" key="GridCell.Tab.0.right/0.0.2560.1406/-3840.0.2560.1440@0.0.2560.1406" timestamp="1604068407872" />
     <state width="861" height="269" key="GridCell.Tab.0.right/0.23.1792.1017/1792.-57.1920.1177@0.23.1792.1017" timestamp="1596719430192" />
     <state width="1771" height="269" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1597214479648" />
     <state width="861" height="264" key="GridCell.Tab.0.right/0.23.1792.1020@0.23.1792.1020" timestamp="1596257013623" />
@@ -805,8 +773,8 @@
     <state width="861" height="269" key="GridCell.Tab.0.right/1792.23.1366.1001/0.23.1792.1026@0.23.1792.1026" timestamp="1596269962732" />
     <state width="861" height="264" key="GridCell.Tab.0.right/1792.23.1366.941/0.23.1792.1097@0.23.1792.1097" timestamp="1596268324002" />
     <state width="861" height="264" key="GridCell.Tab.0.right/1792.56.1366.1001/0.23.1792.1017@0.23.1792.1017" timestamp="1596260427403" />
-    <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1601110930429">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="494" key="GridCell.Tab.1.bottom" timestamp="1604068184512">
+      <screen x="0" y="0" width="2560" height="1406" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.1.bottom/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
     <state width="1771" height="346" key="GridCell.Tab.1.bottom/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1599492881609" />
@@ -816,13 +784,14 @@
     <state width="1771" height="372" key="GridCell.Tab.1.bottom/-322.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1599401571770" />
     <state width="1771" height="372" key="GridCell.Tab.1.bottom/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599310427992" />
     <state width="2539" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1601110930429" />
+    <state width="2539" height="494" key="GridCell.Tab.1.bottom/0.0.2560.1406/-3840.0.2560.1440@0.0.2560.1406" timestamp="1604068184512" />
     <state width="861" height="332" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1597214479593" />
     <state width="861" height="326" key="GridCell.Tab.1.bottom/0.23.1792.1020@0.23.1792.1020" timestamp="1596256991540" />
     <state width="861" height="332" key="GridCell.Tab.1.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1596270651239" />
     <state width="1771" height="344" key="GridCell.Tab.1.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1597236468289" />
     <state width="1771" height="344" key="GridCell.Tab.1.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1597230296692" />
-    <state width="2539" height="492" key="GridCell.Tab.1.center" timestamp="1601110930429">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="494" key="GridCell.Tab.1.center" timestamp="1604068184512">
+      <screen x="0" y="0" width="2560" height="1406" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.1.center/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
     <state width="1771" height="346" key="GridCell.Tab.1.center/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1599492881608" />
@@ -832,13 +801,14 @@
     <state width="1771" height="372" key="GridCell.Tab.1.center/-322.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1599401571770" />
     <state width="1771" height="372" key="GridCell.Tab.1.center/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599310427991" />
     <state width="2539" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1601110930429" />
+    <state width="2539" height="494" key="GridCell.Tab.1.center/0.0.2560.1406/-3840.0.2560.1440@0.0.2560.1406" timestamp="1604068184512" />
     <state width="861" height="332" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1597214479592" />
     <state width="861" height="326" key="GridCell.Tab.1.center/0.23.1792.1020@0.23.1792.1020" timestamp="1596256991540" />
     <state width="861" height="332" key="GridCell.Tab.1.center/0.23.1792.1022@0.23.1792.1022" timestamp="1596270651238" />
     <state width="1771" height="344" key="GridCell.Tab.1.center/0.23.1792.1026@0.23.1792.1026" timestamp="1597236468289" />
     <state width="1771" height="344" key="GridCell.Tab.1.center/0.23.1792.1028@0.23.1792.1028" timestamp="1597230296692" />
-    <state width="2539" height="492" key="GridCell.Tab.1.left" timestamp="1601110930429">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="494" key="GridCell.Tab.1.left" timestamp="1604068184512">
+      <screen x="0" y="0" width="2560" height="1406" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.1.left/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
     <state width="1771" height="346" key="GridCell.Tab.1.left/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1599492881608" />
@@ -848,13 +818,14 @@
     <state width="1771" height="372" key="GridCell.Tab.1.left/-322.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1599401571770" />
     <state width="1771" height="372" key="GridCell.Tab.1.left/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599310427991" />
     <state width="2539" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1601110930429" />
+    <state width="2539" height="494" key="GridCell.Tab.1.left/0.0.2560.1406/-3840.0.2560.1440@0.0.2560.1406" timestamp="1604068184512" />
     <state width="861" height="332" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1597214479591" />
     <state width="861" height="326" key="GridCell.Tab.1.left/0.23.1792.1020@0.23.1792.1020" timestamp="1596256991540" />
     <state width="861" height="332" key="GridCell.Tab.1.left/0.23.1792.1022@0.23.1792.1022" timestamp="1596270651238" />
     <state width="1771" height="344" key="GridCell.Tab.1.left/0.23.1792.1026@0.23.1792.1026" timestamp="1597236468289" />
     <state width="1771" height="344" key="GridCell.Tab.1.left/0.23.1792.1028@0.23.1792.1028" timestamp="1597230296691" />
-    <state width="2539" height="492" key="GridCell.Tab.1.right" timestamp="1601110930429">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="2539" height="494" key="GridCell.Tab.1.right" timestamp="1604068184512">
+      <screen x="0" y="0" width="2560" height="1406" />
     </state>
     <state width="1792" height="353" key="GridCell.Tab.1.right/-322.-1417.2560.1417/0.23.1792.1022@0.23.1792.1022" timestamp="1598886536993" />
     <state width="1771" height="346" key="GridCell.Tab.1.right/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1599492881609" />
@@ -864,18 +835,19 @@
     <state width="1771" height="372" key="GridCell.Tab.1.right/-322.-1417.2560.1417/0.23.1792.1034@0.23.1792.1034" timestamp="1599401571770" />
     <state width="1771" height="372" key="GridCell.Tab.1.right/-322.-1417.2560.1417/0.23.1792.1097@0.23.1792.1097" timestamp="1599310427992" />
     <state width="2539" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1601110930429" />
+    <state width="2539" height="494" key="GridCell.Tab.1.right/0.0.2560.1406/-3840.0.2560.1440@0.0.2560.1406" timestamp="1604068184512" />
     <state width="861" height="332" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1597214479592" />
     <state width="861" height="326" key="GridCell.Tab.1.right/0.23.1792.1020@0.23.1792.1020" timestamp="1596256991540" />
     <state width="861" height="332" key="GridCell.Tab.1.right/0.23.1792.1022@0.23.1792.1022" timestamp="1596270651238" />
     <state width="1771" height="344" key="GridCell.Tab.1.right/0.23.1792.1026@0.23.1792.1026" timestamp="1597236468289" />
     <state width="1771" height="344" key="GridCell.Tab.1.right/0.23.1792.1028@0.23.1792.1028" timestamp="1597230296692" />
-    <state x="1219" y="648" key="SettingsEditor" timestamp="1601111427635">
+    <state x="742" y="551" key="SettingsEditor" timestamp="1601297324081">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="516" y="328" key="SettingsEditor/-322.-1417.2560.1417/0.23.1792.1028@0.23.1792.1028" timestamp="1597670129776" />
     <state x="26" y="17" key="SettingsEditor/0.0.1024.728@0.0.1024.728" timestamp="1600664936807" />
     <state x="242" y="106" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601011461607" />
-    <state x="1219" y="648" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1601111427635" />
+    <state x="742" y="551" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1601297324081" />
     <state x="70" y="36" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1596199985045" />
     <state x="70" y="36" key="SettingsEditor/0.23.1792.1030@0.23.1792.1030" timestamp="1597477207951" />
     <state x="708" y="346" key="Vcs.Push.Dialog.v2" timestamp="1601111594585">

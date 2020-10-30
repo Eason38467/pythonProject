@@ -44,17 +44,17 @@
 
 [vxlanspine]
 #Spine-N9K-2 ansible_ssh_host=192.168.50.102
-ROG-Spine-N9K-1 ansible_host=192.168.50.104
-ROG-Spine-N9K-2 ansible_host=192.168.50.105
+ROG-Spine-N9K-1 ansible_host=192.168.50.101
+ROG-Spine-N9K-2 ansible_host=192.168.50.102
 
 
 [vxlanleaf]
 #Leaf-N9K-1 ansible_ssh_host=192.168.50.101
 #Leaf-N9K-2 ansible_ssh_host=192.168.50.103
-ROG-Leaf-N9K-1 ansible_host=192.168.50.106
-ROG-Leaf-N9K-2 ansible_host=192.168.50.107
-ROG-Leaf-N9K-3 ansible_host=192.168.50.108
-ROG-Leaf-N9K-4 ansible_host=192.168.50.109
+ROG-Leaf-N9K-1 ansible_host=192.168.50.103
+ROG-Leaf-N9K-2 ansible_host=192.168.50.104
+ROG-Leaf-N9K-3 ansible_host=192.168.50.105
+ROG-Leaf-N9K-4 ansible_host=192.168.50.106
 
 
 [nxos:children]

@@ -1,4 +1,6 @@
 import re
+import json
+import requests
 
 with open('hosts',"w") as file:
     file.write('[vxlanspine]')
@@ -131,5 +133,3 @@ def addportdescription(devicelist):
 
                 print(changedecription)
 
-if __name__== "__main__":
-    exportdevicelist()

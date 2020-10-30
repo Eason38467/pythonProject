@@ -18,3 +18,14 @@
         lines: hostname {{ inventory_hostname }}
         provider: "{{ nxos_provider }}"
         save_when: modified
+    - name: enable feature
+      nxos_feature:
+        feature: '{{ item.feature }}'
+        provider: "{{ nxos_provider }}"
+      with_items: "{{ features }}"
+    - name: enable nv overlay evpn
+      nxos_evpn_global:
+        nv_overlay_evpn: true
+    - name: enable http port 80
+      nxos_nxapi:
+        http_port: 80
