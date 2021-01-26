@@ -6,6 +6,7 @@ import re
 import json
 import requests
 import time
+import sys
 from collectdeviceinfo import *
 
 print('''
@@ -188,14 +189,12 @@ def addip(l3interface,mgmt_ip):
 
 
 
-devices= [{'spine1':"192.168.50.101"},{'spine2':"192.168.50.102"},{'leaf1':"192.168.50.103"},{'leaf2':"192.168.50.104"},{'leaf3':"192.168.50.105"},{'leaf4':"192.168.50.106"},]
-
-
 iplist = genip()
+collectspinemgmt()
+collectleafmgmt()
+addportdescription(devicelist)
 
-addportdescription(devices)
-
-for i in devices:
+for i in devicelist:
 
     for Hostname, mgmt_ip in i.items():
 
@@ -226,10 +225,6 @@ for i in devices:
 
         addipforeachdevice=addip(portlists,mgmt_ip)
         print(addipforeachdevice)
-
-
-
-
 
 
 
