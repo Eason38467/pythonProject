@@ -16,6 +16,6 @@ while True:
     plt.axes().get_yaxis().set_visible(False)
 
     plt.show()
-    keep_running = input('make anothe wak')
+    keep_running = input('make another walk:')
     if keep_running == "n":
         break
